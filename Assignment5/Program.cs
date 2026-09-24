@@ -15,9 +15,19 @@ namespace Assignment5
 
             //Copying an object creates a brand-new, independent clone in memory, so changes to one do not affect the other.
             #endregion
+
+            #region Question 2
+            //02 answer
+            //a)A quick copy where the main object is duplicated, but any nested objects (like another object inside it) are only copied by their addresses
+            //b)A thorough copy where the main object and all of its nested objects are completely duplicated into brand-new, independent copies
+            //c)They share the same memory address. If you change a nested object in the copy, it accidentally changes in the original too
+            //d)Brand-new copies of the nested objects are created. They are completely independent of the original
+            //e)When editing a user profile's address. If you use a shallow copy, changing the copied address might accidentally change the original database record
+            //A deep copy keeps them separate and safe
+            #endregion
             #region Practical Question
-                        //practical Question
-                        DeliveryAddress deliveryAddress = new DeliveryAddress("Cairo", "Abbas", 43);
+            //practical Question
+            DeliveryAddress deliveryAddress = new DeliveryAddress("Cairo", "Abbas", 43);
             StandardShipment standardShipment01 = new StandardShipment("TER-343", "Cloths", 23, 5343, deliveryAddress);
             StandardShipment standardShipment02 = standardShipment01;
             standardShipment01.PrintShipment();
