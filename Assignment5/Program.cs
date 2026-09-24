@@ -50,6 +50,7 @@ namespace Assignment5
             #endregion
             #region Practical Question
             //practical Question
+            //06 answer
             DeliveryAddress deliveryAddress = new DeliveryAddress("Cairo", "Abbas", 43);
             StandardShipment standardShipment01 = new StandardShipment("TER-343", "Cloths", 23, 5343, deliveryAddress);
             StandardShipment standardShipment02 = standardShipment01;
