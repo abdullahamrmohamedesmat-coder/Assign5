@@ -8,7 +8,7 @@ namespace Assignment5
         static void Main(string[] args)
         {
             #region Question 1
-            //1st answer
+            //01st answer
             //a)Both variables end up pointing to the exact same object in the computer's memory. Think of it like having two house keys that open the exact same front door
             //b)No.It only copies the address(reference) of the original object, not the object itself
             //c)Copying a reference means two variables point to one shared object (change one, and the other changes too).
