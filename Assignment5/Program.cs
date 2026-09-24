@@ -25,6 +25,15 @@ namespace Assignment5
             //e)When editing a user profile's address. If you use a shallow copy, changing the copied address might accidentally change the original database record
             //A deep copy keeps them separate and safe
             #endregion
+
+            #region Question 3
+            //03 answer
+            //a)A static field belongs to the class itself (shared by all objects of that class).
+            //An instance field belongs to a specific object(each object has its own separate copy)
+            //b)It is a method that belongs to the class, not to any specific object. No, it cannot directly access instance members because it doesn't know which object's data to look at
+            //c)A special setup block used to initialize static data. It runs automatically only once, right before the class is used for the very first time
+            //d)A class that only contains static tools and helpers. No, you cannot create an object (new) from a static class
+            #endregion
             #region Practical Question
             //practical Question
             DeliveryAddress deliveryAddress = new DeliveryAddress("Cairo", "Abbas", 43);
