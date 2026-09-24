@@ -34,6 +34,16 @@ namespace Assignment5
             //c)A special setup block used to initialize static data. It runs automatically only once, right before the class is used for the very first time
             //d)A class that only contains static tools and helpers. No, you cannot create an object (new) from a static class
             #endregion
+            #region Question 4
+            //04 answer
+            //a)A handy trick that lets you "add" new methods to an existing class without having to rewrite or modify its original code
+            //b)The this keyword (e.g., this string str)
+            //c)Inside a static class as a static method
+            //d)No, it only has access to public or protected members, just like any normal outside code
+            #endregion
+            #region Question 5
+
+            #endregion
             #region Practical Question
             //practical Question
             DeliveryAddress deliveryAddress = new DeliveryAddress("Cairo", "Abbas", 43);
