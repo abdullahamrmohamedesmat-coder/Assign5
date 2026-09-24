@@ -42,7 +42,11 @@ namespace Assignment5
             //d)No, it only has access to public or protected members, just like any normal outside code
             #endregion
             #region Question 5
-
+            //05 answer
+            //a)A single class whose code is split across multiple different files using the partial keyword. The computer stitches them back together when running the program
+            //b)For better organization—for example, separating auto-generated system code from your own handwritten code
+            //c)A method whose declaration is put in one part of a partial class, and its actual instructions can optionally be written in another part
+            //d)The compiler simply removes the method completely, so it causes zero errors or performance loss
             #endregion
             #region Practical Question
             //practical Question
